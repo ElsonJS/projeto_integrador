@@ -1,0 +1,136 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/fundo.png);
+}
+
+.bg-dark .container-lg {
+    height: 20px;
+    padding: 0;
+}
+
+.bnt {
+    position: absolute;
+    display: flex;
+    width: 30px;
+    background: transparent;
+    border: 1px solid transparent;
+    left: 20px;
+}
+
+.bnt i {
+    font-size: 18px;
+    color: #fff;
+}
+
+.bnt i:hover {
+    color: #f5c801;
+}
+
+.return {
+    position: absolute;
+    left: 55px;
+}
+
+.return i {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.g-3 {
+    background-color: #f5c80159;
+    width: 100%;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #f5c801;
+    
+}
+
+
+.container-fluid {
+    margin-top: 50px;
+    width: 70%;
+}
+
+.col-12 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btn-primary {
+    width: 100px;
+    background-color: #319603;
+    color: #000000;
+    border: 1px solid #319603;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #97811d;
+    border: 1px solid #f5c801;
+}
+
+.btn-res {
+    width: 100px;
+    background-color: #e9300f;
+    color: #fff;
+    border: 1px solid #e9300f;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.btn-res:hover {
+    background-color: #7e2616;
+    border: 1px solid #e9300f;
+}
+
+.container-xl {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    bottom: 0;
+    color: #aaa8a8ee;
+    font-size: 10px;
+}
+
+@media only screen and (min-width: 1024px){
+    .card-group {
+        margin-top: 150px;
+    }
+
+    .bnt {
+        position: absolute;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        margin-top: auto;
+    }
+
+    .return {
+        position: absolute;
+    }
+
+    .return i {
+        color: #fff;
+    }
+
+    .container-fluid {
+        margin-top: 50px;
+        width: 40%;
+    }
+    
+}
